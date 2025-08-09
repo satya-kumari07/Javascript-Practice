@@ -11,6 +11,7 @@ age=24;
 //                  Javascript compile code line by line.
 //                  we cannot use keywords as a variable name.
 
+
 a = 10;
 // console.log(a);
 a = "satya";
@@ -22,15 +23,18 @@ b = b++;
 b = ++b;
 // console.log(b);
 
+
 var a=5;
-console.log(a);   //output -- 5
+// console.log(a);   //output -- 5
 var a=6;
-console.log(a);   //output --6
+// console.log(a);   //output --6
+
 
 const a=5;
-console.log(a);
+// console.log(a);
 var a=9;                    //ERROR
-console.log(a);
+// console.log(a);
+
 
 
 

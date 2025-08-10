@@ -14,7 +14,7 @@ age=24;
 
 a = 10;
 // console.log(a);
-a = "satya";
+name = "satya";
 // console.log(a);
 b = 5;
 // console.log(b);
@@ -26,13 +26,13 @@ b = ++b;
 
 var a=5;
 // console.log(a);   //output -- 5
-var a=6;
+a=6;
 // console.log(a);   //output --6
 
 
-const a=5;
+const c=5;
 // console.log(a);
-var a=9;                    //ERROR
+c=9;                    //ERROR
 // console.log(a);
 
 

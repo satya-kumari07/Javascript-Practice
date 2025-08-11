@@ -65,3 +65,47 @@ if(marks>=33){
 }else{
     console.log("better luck for next time");
 }
+
+//+++++++++++++++++++++++++++ Switch Statement  ++++++++++++++++++
+
+let color = "red";
+switch(color){
+    case "red":
+        console.log("stop");
+        break;
+    case "yellow":
+        console.log("go slow");
+        break;
+    case "green":
+        console.log("go");
+        break;
+    default:
+        console.log("broken light");
+}
+
+let day=1;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("thursday");
+        break;
+    case 5:
+        console.log("friday");
+        break;
+    case 6:
+        console.log("saturday");
+        break;
+    case 7:
+        console.log("sunday");
+        break;
+    default:
+        console.log("invalid number");
+}

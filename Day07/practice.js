@@ -32,5 +32,9 @@ const mergeObjects=(obj1,obj2)=>({...obj1, ...obj2});
 console.log(mergeObjects({name:"satya",age:21},{city:"nikita",location:21,},
 ))
 
+function add(arr,...args){
+    return [...arr,...args.map((el)=>el*2)];
+}
+console.log(add([2,3,4],4,5));
 
 

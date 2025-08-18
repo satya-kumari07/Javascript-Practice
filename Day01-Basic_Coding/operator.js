@@ -46,6 +46,8 @@ console.log(newAge);     //11
 let age2=10;
 var newAge2 = age2++;
 console.log(newAge2);    //10
+console.log(age2);
+console.log("++++++++++++++++++++++++++++");
 
 let age3=10;
 age3++;

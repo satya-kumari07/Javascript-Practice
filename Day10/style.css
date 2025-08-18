@@ -1,0 +1,26 @@
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-top: 3rem;
+}
+.box{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid black;
+    width:40vw;
+    height: 30vh;
+}
+.div{
+    height: 10rem;
+    background-color: pink;
+}
+.ul{
+    background-color: green;
+}
+.delete{
+    background-color: brown;
+}
